@@ -8,8 +8,8 @@
     <packaging>pom</packaging>
     <properties>
 
-        <my.developer.connection />
-        <my.developer.url />
+        <my.developer.url>https://github.com/randomdotnextrandom/newTestMultiPom</my.developer.url>
+        <my.developer.connection>scm:git:ssh://git@github.com:/randomdotnextrandom/newTestMultiPom.git</my.developer.connection>
 
     </properties>
     <scm>
