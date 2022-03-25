@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <proxies>
+        <proxy>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>proxy.vmware.com</host>
+            <port>3128</port>
+            <nonProxyHosts>*.vmware.com|*.trcint.com</nonProxyHosts>
+        </proxy>
+    </proxies>
+    <servers>
+        <server>
+            <id>repsy</id>
+            <username>raghu141988</username>
+            <password>Raghu@123</password>
+        </server>
+
+    </servers>
+
+
+
+
+</settings>
+
