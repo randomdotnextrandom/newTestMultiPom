@@ -33,13 +33,11 @@
 
 
   </modules>
-<!--
   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.3</version>
         <executions>
           <execution>
             <id>default</id>
@@ -54,6 +52,5 @@
       </plugin>
     </plugins>
   </build>
--->
 
 </project>

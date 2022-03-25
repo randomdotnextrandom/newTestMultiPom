@@ -10,7 +10,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <spring-core.version>5.3.1</spring-core.version>
-        <bundleVersion>4.15</bundleVersion>
+        <bundleVersion>4.15-SNAPSHOT</bundleVersion>
         <my.developer.url>https://github.com/randomdotnextrandom/newTestMultiPom</my.developer.url>
         <my.developer.connection>scm:git:ssh://git@github.com:/randomdotnextrandom/newTestMultiPom.git</my.developer.connection>
     </properties>
