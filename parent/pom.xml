@@ -15,9 +15,9 @@
 
     </properties>
     <scm>
-        <url>scm:git:https://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@github.com/raghav141988/newTestMultiPom</url>
-        <connection>scm:git:https://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@github.com/raghav141988/newTestMultiPom</connection>
-        <developerConnection>scm:git:https://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@github.com/raghav141988/newTestMultiPom</developerConnection>
+        <url>scm:git:https://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@github.com/raghav141988/newTestMultiPom</url>
+        <connection>scm:git:https://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@github.com/raghav141988/newTestMultiPom</connection>
+        <developerConnection>scm:git:https://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@github.com/raghav141988/newTestMultiPom</developerConnection>
         <tag>parent-2.0-SNAPSHOT</tag>
     </scm>
 
