@@ -16,7 +16,7 @@
         <url>${my.developer.url}</url>
         <connection>${my.developer.connection}</connection>
         <developerConnection>${my.developer.connection}</developerConnection>
-        <tag>parent-project-2.0-SNAPSHOT</tag>
+        <tag>parent-project-2.0-SNAPSHOT-SNAPSHOT</tag>
     </scm>
 
     <distributionManagement>
