@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <version>4.16-SNAPSHOT</version>
+  <version>4.16</version>
   <artifactId>parent</artifactId>
   <groupId>com.baeldung</groupId>
   <packaging>pom</packaging>
@@ -19,7 +18,7 @@
     <url>${my.developer.url}</url>
     <connection>${my.developer.connection}</connection>
     <developerConnection>${my.developer.connection}</developerConnection>
-    <tag>parent-4.15</tag>
+    <tag>parent-4.16</tag>
   </scm>
 
   <distributionManagement>
@@ -30,10 +29,10 @@
     </repository>
   </distributionManagement>
   <modules>
-    <module>../core</module>
-    <module>../service</module>
-    <module>../webapp</module>
-    <module>../starter</module>
+    <module>core</module>
+    <module>service</module>
+    <module>webapp</module>
+    <module>starter</module>
   </modules>
   <dependencyManagement>
 
@@ -51,28 +50,4 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>default</id>
-            <goals>
-              <goal>perform</goal>
-            </goals>
-            <configuration>
-              <pomFileName>../core/pom.xml</pomFileName>
-              <pomFileName>../service/pom.xml</pomFileName>
-              <pomFileName>../webapp/pom.xml</pomFileName>
-              <pomFileName>../starter/pom.xml</pomFileName>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-
 </project>
