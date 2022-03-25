@@ -10,6 +10,7 @@
         <version>2.0</version>
         <relativePath>../parent</relativePath>
     </parent>
+
 <dependencies>
     <dependency>
         <groupId>com.baeldung</groupId>
