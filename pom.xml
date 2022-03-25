@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.baeldung</groupId>
     <artifactId>parent-project</artifactId>
-    <version>3.1-SNAPSHOT</version>
+    <version>3.2-SNAPSHOT-SNAPSHOT</version>
     <name>parent-project</name>
     <packaging>pom</packaging>
     <properties>
@@ -16,7 +16,7 @@
         <url>${my.developer.url}</url>
         <connection>${my.developer.connection}</connection>
         <developerConnection>${my.developer.connection}</developerConnection>
-        <tag>parent-project-3.1-SNAPSHOT</tag>
+        <tag>parent-project-3.2-SNAPSHOT-SNAPSHOT</tag>
     </scm>
 
     <distributionManagement>
