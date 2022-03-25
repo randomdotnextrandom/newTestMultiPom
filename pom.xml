@@ -45,7 +45,7 @@
                     <goal>perform</goal>
                 </goals>
                 <configuration>
-                    <pomFileName>-f parent/pom.xml</pomFileName>
+                    <pomFileName>parent/pom.xml</pomFileName>
                 </configuration>
             </execution>
         </executions>
