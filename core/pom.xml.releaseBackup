@@ -8,7 +8,7 @@
     <parent>
         <artifactId>parent</artifactId>
         <groupId>com.baeldung</groupId>
-        <version>3.5-SNAPSHOT</version>
+        <version>3.5-SNAPSHOT-SNAPSHOT</version>
         <relativePath>../parent</relativePath>
     </parent>
 <modules>
@@ -22,5 +22,7 @@
         </dependency>
     </dependencies>
 
-
+    <properties>
+        <spring-core.version>4.3.5-SNAPSHOT-SNAPSHOT0.RELEASE</spring-core.version>
+    </properties>
 </project>
